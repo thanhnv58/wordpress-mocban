@@ -1,0 +1,93 @@
+.noUi-handle:before, .noUi-handle:after{display: none;}
+	/*.tooltip.fade.top.in{top: -27px;left: -14px;opacity: 0.7;}*/
+	.tooltip {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.5;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    font-size: .875rem;
+    word-wrap: break-word;
+    opacity: 0;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}.tooltip-inner {
+    font-size: 12px;
+}.tooltip-inner {
+    margin-left: 5px;
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: .25rem;
+}
+.card{
+    max-width: 245px !important
+}
+.noUi-horizontal .noUi-handle {
+    width: 18px;
+    height: 18px;
+    left: -15px;
+    border: 1px solid #e0e4e6;
+    top: -7px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;    border-radius: 999px;
+    box-shadow: none;
+}.noUi-base {
+    padding: 5px 0;
+}.noUi-target.noUi-connect {
+    box-shadow: none;
+}.noUi-horizontal {
+    height: 4px;
+}.noUi-background {
+    background: #d5d5d5 !important;
+    box-shadow: none;
+}
+    .noUi-origin {
+    border-radius: 0px;
+    bottom: 5px;
+}.noUi-target {
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    direction: ltr;
+}
+
+/*************/
+#slider-tooltips{
+  width: 80%;float: left;
+}
+/*
+#number_cus{
+  width: 20%;float: right;position: absolute;
+   right: 0%;
+    top: -11%;
+}
+*/
+#number_cus {
+    width: 41%;
+    float: right;
+    position: absolute;
+    right: -17%;
+    top: -11%;
+}
+#number_cus input{
+  width: 57px;
+}
